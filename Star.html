@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star plattern</title>
+</head>
+<body>
+    <script>
+         var a = prompt("enter number of star");
+        var num = parseInt(a);
+
+        for(var i=1; i<=num;i++)
+        {
+            star= "";
+            for(var j=1; j<=i; j++)
+            {
+                star = star + "*";
+                
+            }
+            console.log(star);
+           
+        }
+
+        for (var i=1; i<=num-1;i++)
+        {
+            star= "";
+            for(var j=num-1; j>=i; j--)
+            {
+                star = star + "*";
+              
+            }
+            console.log(star);
+         
+        }
+ 
+    </script>
+    
+</body>
+</html>
